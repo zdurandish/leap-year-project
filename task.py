@@ -1,6 +1,7 @@
 chosen_year = int(input("Enter the year: "))
 
 def is_leap_year(year):
+    """Takes the year and decides wether it's a leap year or not"""
     if not year % 4 == 0:
         return False
     else:
